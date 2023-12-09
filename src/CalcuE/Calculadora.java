@@ -15,5 +15,8 @@ public class Calculadora {
 		double promedio;
 		promedio = (valor1+ valor2 + valor3)/3;
 		return promedio;
-	}		
+	}
+	public void mostrarResultado() {
+		System.out.println("Estoy ocupado, vuelvan en 15 min");
+	}
 }
